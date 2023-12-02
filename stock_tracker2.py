@@ -69,30 +69,39 @@ tab2 = menu.add("Calculate mode")
 menu.pack(fill='both', expand=1)
 
 # Search mode frame
+# Search mode frame
 name_label = ctk.CTkLabel(tab1, text='Stock Name', font=('Ex 2.0', 15, 'bold')).place(x=10, y=10)
-name_entry = ctk.CTkEntry(tab1).place(x=150,y=10)
-
+name_entry = ctk.CTkEntry(tab1)
+name_entry.place(x=150, y=10)
 
 price_label = ctk.CTkLabel(tab1, text='Price', font=('Ex 2.0', 15, 'bold')).place(x=10, y=40)
-price_entry = ctk.CTkEntry(tab1).place(x=150, y=40)
+price_entry = ctk.CTkEntry(tab1)
+price_entry.place(x=150, y=40)
 
 quantity_label = ctk.CTkLabel(tab1, text='Quantity', font=('Ex 2.0', 15, 'bold')).place(x=10, y=70)
-quantity_entry = ctk.CTkEntry(tab1).place(x=150, y=70)
+quantity_entry = ctk.CTkEntry(tab1)
+quantity_entry.place(x=150, y=70)
 
 total_label = ctk.CTkLabel(tab1, text='Total Price', font=('Ex 2.0', 15, 'bold')).place(x=10, y=100)
-total_entry = ctk.CTkEntry(tab1).place(x=150, y=100)
+total_entry = ctk.CTkEntry(tab1)
+total_entry.place(x=150, y=100)
 
 buy_date_label = ctk.CTkLabel(tab1, text='Buy date', font=('Ex 2.0', 15, 'bold')).place(x=10, y=130)
-buy_date_entry = ctk.CTkEntry(tab1).place(x=150, y=130)
+buy_date_entry = ctk.CTkEntry(tab1)
+buy_date_entry.place(x=150, y=130)
 
 sell_price_label = ctk.CTkLabel(tab1, text='Sell Price', font=('Ex 2.0', 15, 'bold')).place(x=10, y=160)
-sell_price_entry = ctk.CTkEntry(tab1).place(x=150, y=160)
+sell_price_entry = ctk.CTkEntry(tab1)
+sell_price_entry.place(x=150, y=160)
 
 sell_date_label = ctk.CTkLabel(tab1, text='Sell date', font=('Ex 2.0', 15, 'bold')).place(x=10, y=190)
-sell_date_entry = ctk.CTkEntry(tab1).place(x=150, y=190)
+sell_date_entry = ctk.CTkEntry(tab1)
+sell_date_entry.place(x=150, y=190)
 
 profit_label = ctk.CTkLabel(tab1, text='Profit gained', font=('Ex 2.0', 15, 'bold')).place(x=10, y=220)
-profit_entry = ctk.CTkEntry(tab1).place(x=150, y=220)
+profit_entry = ctk.CTkEntry(tab1)
+profit_entry.place(x=150, y=220)
+
 
 # Buttons
 generate_btn = ctk.CTkButton(tab1, text='Generate Data', font=('sans', 15, 'bold'), fg_color='green', width=10,
