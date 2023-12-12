@@ -286,7 +286,7 @@ sell_date_entry.place(x=150, y=190)
 
 profit_label = ctk.CTkLabel(tab1, text='Profit gained', font=('Ex 2.0', 15, 'bold')).place(x=10, y=220)
 profit_var = tk.StringVar()
-profit_entry = ctk.CTkEntry(tab1, textvariable=profit_var/)
+profit_entry = ctk.CTkEntry(tab1, textvariable=profit_var)
 profit_entry.place(x=150, y=220)
 
 quantity_var.trace_add("write", calculate_total)
